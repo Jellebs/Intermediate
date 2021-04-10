@@ -83,14 +83,25 @@ class StartVC: UIViewController {
         let alertInputView = UIAlertController(title: "Playlist name",
                                                message: "Enter a playlist name",
                                                preferredStyle: .alert)
+        
+        let message = NSString(string: "Enter a playlist name")
+        alertInputView.message = message.attribu
         alertInputView.addTextField { nameTextField in
-            nameTextField.text = "Enter a playlist name"
+            nameTextField.placeholder = "Enter a playlist name"
         }
         alertInputView.addTextField { descriptionTextField in
-            descriptionTextField.text = "Enter playlist description"
+            descriptionTextField.placeholder = "Enter playlist description"
         }
         alertInputView.addTextField { imgStringTextField in
-            imgStringTextField.text = "Enter a number between 1-5"
+            imgStringTextField.placeholder = "Enter a number between 1-5"
+        }
+        
+        let textFields = alertInputView.textFields
+        for textField in textFields! {
+            textField.textColor = LÆKKER_LIMEGRØN
+            textField.textInputView.tintColor = UIColor.black
+            textField.tintColor = UIColor.black
+            textField.backgroundColor = UIColor.black
         }
         alertInputView.addAction(UIAlertAction(title: "Cancel",
                                                style: .cancel,
