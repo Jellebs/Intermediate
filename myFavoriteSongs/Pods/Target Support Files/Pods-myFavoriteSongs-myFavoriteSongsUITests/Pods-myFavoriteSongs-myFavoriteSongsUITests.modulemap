@@ -1,0 +1,6 @@
+framework module Pods_myFavoriteSongs_myFavoriteSongsUITests {
+  umbrella header "Pods-myFavoriteSongs-myFavoriteSongsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

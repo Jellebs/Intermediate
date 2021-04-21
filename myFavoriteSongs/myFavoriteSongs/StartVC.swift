@@ -7,6 +7,8 @@
 
 import UIKit
 import CoreData
+import PMAlertController
+
 class StartVC: UIViewController {
 
     static let dateformatter: DateFormatter = {
@@ -80,52 +82,65 @@ class StartVC: UIViewController {
     }
     
     func displayAlertView() {
-        let alertInputView = UIAlertController(title: "Playlist name",
-                                               message: "Enter a playlist name",
-                                               preferredStyle: .alert)
         
-        let message = NSString(string: "Enter a playlist name")
-        alertInputView.message = message.attribu
-        alertInputView.addTextField { nameTextField in
-            nameTextField.placeholder = "Enter a playlist name"
-        }
-        alertInputView.addTextField { descriptionTextField in
-            descriptionTextField.placeholder = "Enter playlist description"
-        }
-        alertInputView.addTextField { imgStringTextField in
-            imgStringTextField.placeholder = "Enter a number between 1-5"
-        }
+        let alertInpuntView = PMAlertController(title: "Playlist name", description: "Enter a playlist name", image: UIImage(), style: .alert)
+        alertInpuntView.alertView.layer.cornerRadius = 6
+        alertInpuntView.alertView.backgroundColor = UIColor.black
+        let black = UIColor.black
+        let noder = UIImage(systemName: "music.quarternote.3")
+        alertInpuntView.alertImage.tintColor = LÆKKER_LIMEGRØN
+        alertInpuntView.alertImage.image = noder
+        alertInpuntView.alertImage.backgroundColor = UIColor.black
         
-        let textFields = alertInputView.textFields
-        for textField in textFields! {
-            textField.textColor = LÆKKER_LIMEGRØN
-            textField.textInputView.tintColor = UIColor.black
-            textField.tintColor = UIColor.black
-            textField.backgroundColor = UIColor.black
-        }
-        alertInputView.addAction(UIAlertAction(title: "Cancel",
-                                               style: .cancel,
-                                               handler: nil
-                                               )
-                                )
-        alertInputView.addAction(UIAlertAction(title: "Save",
-                                               style: .default,
-                                               handler: { [weak self]  alertAction in
-                                                if let playlistName = alertInputView.textFields?.first?.text,
-                                                   let description = alertInputView.textFields?[1].text,
-                                                   let imgString = alertInputView.textFields?[2].text,
-                                                   !playlistName.isEmpty {
-                                                    
-                                                    self?.createPlaylist(playlistName: playlistName,
-                                                                         playlistDescription: description,
-                                                                         stringOf: imgString)
-                                                } else {
-                                                    print("Invalid input")
-                                                }
-                                               }
-                                              )
-                                )
-        present(alertInputView, animated: true, completion: nil)
+        
+        present(alertInpuntView, animated: true, completion: nil)
+        
+//        let alertInputView = UIAlertController(title: "Playlist name",
+//                                               message: "Enter a playlist name",
+//                                               preferredStyle: .alert)
+//
+//        let message = NSString(string: "Enter a playlist name")
+//        alertInputView.message = message.attribu
+//        alertInputView.addTextField { nameTextField in
+//            nameTextField.placeholder = "Enter a playlist name"
+//        }
+//        alertInputView.addTextField { descriptionTextField in
+//            descriptionTextField.placeholder = "Enter playlist description"
+//        }
+//        alertInputView.addTextField { imgStringTextField in
+//            imgStringTextField.placeholder = "Enter a number between 1-5"
+//        }
+//
+//        let textFields = alertInputView.textFields
+//        for textField in textFields! {
+//            textField.textColor = LÆKKER_LIMEGRØN
+//            textField.textInputView.tintColor = UIColor.black
+//            textField.tintColor = UIColor.black
+//            textField.backgroundColor = UIColor.black
+//        }
+//        alertInputView.addAction(UIAlertAction(title: "Cancel",
+//                                               style: .cancel,
+//                                               handler: nil
+//                                               )
+//                                )
+//        alertInputView.addAction(UIAlertAction(title: "Save",
+//                                               style: .default,
+//                                               handler: { [weak self]  alertAction in
+//                                                if let playlistName = alertInputView.textFields?.first?.text,
+//                                                   let description = alertInputView.textFields?[1].text,
+//                                                   let imgString = alertInputView.textFields?[2].text,
+//                                                   !playlistName.isEmpty {
+//
+//                                                    self?.createPlaylist(playlistName: playlistName,
+//                                                                         playlistDescription: description,
+//                                                                         stringOf: imgString)
+//                                                } else {
+//                                                    print("Invalid input")
+//                                                }
+//                                               }
+//                                              )
+//                                )
+//        present(alertInputView, animated: true, completion: nil)
     }
     
     

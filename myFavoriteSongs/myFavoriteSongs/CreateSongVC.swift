@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class CreateSongVC: UIViewController {
 
     @IBOutlet weak var titleLbl: UINavigationBar!
@@ -22,17 +23,19 @@ class CreateSongVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        songTitle.attributedPlaceholder = setPlaceholderColor(UITextField: songTitle,
-                                                              placeHolderText: "Enter song title")
-        albumTitle.attributedPlaceholder = setPlaceholderColor(UITextField: albumTitle,
-                                                               placeHolderText: "Enter album title")
-        artistName.attributedPlaceholder = setPlaceholderColor(UITextField: artistName, placeHolderText: "Enter artist name")
-        songLength.attributedPlaceholder = setPlaceholderColor(UITextField: songLength, placeHolderText: "Enter song length like so: 00:00, minutes:seconds")
         configure()
+        
         // Do any additional setup after loading the view.
     }
     
     func configure() {
+        //placeholders
+        songTitle.attributedPlaceholder = setPlaceholderColor(UITextField: songTitle,  placeHolderText: "Enter song title")
+        albumTitle.attributedPlaceholder = setPlaceholderColor(UITextField: albumTitle, placeHolderText: "Enter album title")
+        artistName.attributedPlaceholder = setPlaceholderColor(UITextField: artistName, placeHolderText: "Enter artist name")
+        songLength.attributedPlaceholder = setPlaceholderColor(UITextField: songLength, placeHolderText: "Enter song length like so: 00:00, minutes:seconds")
+        
+        //delegates
         songTitle.delegate = self
         albumTitle.delegate = self
         artistName.delegate = self
