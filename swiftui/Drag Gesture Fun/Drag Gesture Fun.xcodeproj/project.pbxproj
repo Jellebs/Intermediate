@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8B929B12637E76C00A04ADF /* Drag_Gesture_FunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B929B02637E76C00A04ADF /* Drag_Gesture_FunApp.swift */; };
+		C8B929B32637E76C00A04ADF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B929B22637E76C00A04ADF /* ContentView.swift */; };
+		C8B929B52637E77000A04ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B929B42637E77000A04ADF /* Assets.xcassets */; };
+		C8B929B82637E77000A04ADF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B929B72637E77000A04ADF /* Preview Assets.xcassets */; };
+		C8B929C32637E77000A04ADF /* Drag_Gesture_FunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B929C22637E77000A04ADF /* Drag_Gesture_FunTests.swift */; };
+		C8B929CE2637E77000A04ADF /* Drag_Gesture_FunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B929CD2637E77000A04ADF /* Drag_Gesture_FunUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8B929BF2637E77000A04ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8B929A52637E76C00A04ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B929AC2637E76C00A04ADF;
+			remoteInfo = "Drag Gesture Fun";
+		};
+		C8B929CA2637E77000A04ADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8B929A52637E76C00A04ADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B929AC2637E76C00A04ADF;
+			remoteInfo = "Drag Gesture Fun";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8B929AD2637E76C00A04ADF /* Drag Gesture Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drag Gesture Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B929B02637E76C00A04ADF /* Drag_Gesture_FunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drag_Gesture_FunApp.swift; sourceTree = "<group>"; };
+		C8B929B22637E76C00A04ADF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8B929B42637E77000A04ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8B929B72637E77000A04ADF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8B929B92637E77000A04ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B929BE2637E77000A04ADF /* Drag Gesture FunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drag Gesture FunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B929C22637E77000A04ADF /* Drag_Gesture_FunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drag_Gesture_FunTests.swift; sourceTree = "<group>"; };
+		C8B929C42637E77000A04ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B929C92637E77000A04ADF /* Drag Gesture FunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drag Gesture FunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B929CD2637E77000A04ADF /* Drag_Gesture_FunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drag_Gesture_FunUITests.swift; sourceTree = "<group>"; };
+		C8B929CF2637E77000A04ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8B929AA2637E76C00A04ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B929BB2637E77000A04ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B929C62637E77000A04ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8B929A42637E76C00A04ADF = {
+			isa = PBXGroup;
+			children = (
+				C8B929AF2637E76C00A04ADF /* Drag Gesture Fun */,
+				C8B929C12637E77000A04ADF /* Drag Gesture FunTests */,
+				C8B929CC2637E77000A04ADF /* Drag Gesture FunUITests */,
+				C8B929AE2637E76C00A04ADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8B929AE2637E76C00A04ADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8B929AD2637E76C00A04ADF /* Drag Gesture Fun.app */,
+				C8B929BE2637E77000A04ADF /* Drag Gesture FunTests.xctest */,
+				C8B929C92637E77000A04ADF /* Drag Gesture FunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8B929AF2637E76C00A04ADF /* Drag Gesture Fun */ = {
+			isa = PBXGroup;
+			children = (
+				C8B929B02637E76C00A04ADF /* Drag_Gesture_FunApp.swift */,
+				C8B929B22637E76C00A04ADF /* ContentView.swift */,
+				C8B929B42637E77000A04ADF /* Assets.xcassets */,
+				C8B929B92637E77000A04ADF /* Info.plist */,
+				C8B929B62637E77000A04ADF /* Preview Content */,
+			);
+			path = "Drag Gesture Fun";
+			sourceTree = "<group>";
+		};
+		C8B929B62637E77000A04ADF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8B929B72637E77000A04ADF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8B929C12637E77000A04ADF /* Drag Gesture FunTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8B929C22637E77000A04ADF /* Drag_Gesture_FunTests.swift */,
+				C8B929C42637E77000A04ADF /* Info.plist */,
+			);
+			path = "Drag Gesture FunTests";
+			sourceTree = "<group>";
+		};
+		C8B929CC2637E77000A04ADF /* Drag Gesture FunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8B929CD2637E77000A04ADF /* Drag_Gesture_FunUITests.swift */,
+				C8B929CF2637E77000A04ADF /* Info.plist */,
+			);
+			path = "Drag Gesture FunUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8B929AC2637E76C00A04ADF /* Drag Gesture Fun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B929D22637E77000A04ADF /* Build configuration list for PBXNativeTarget "Drag Gesture Fun" */;
+			buildPhases = (
+				C8B929A92637E76C00A04ADF /* Sources */,
+				C8B929AA2637E76C00A04ADF /* Frameworks */,
+				C8B929AB2637E76C00A04ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drag Gesture Fun";
+			productName = "Drag Gesture Fun";
+			productReference = C8B929AD2637E76C00A04ADF /* Drag Gesture Fun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8B929BD2637E77000A04ADF /* Drag Gesture FunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B929D52637E77000A04ADF /* Build configuration list for PBXNativeTarget "Drag Gesture FunTests" */;
+			buildPhases = (
+				C8B929BA2637E77000A04ADF /* Sources */,
+				C8B929BB2637E77000A04ADF /* Frameworks */,
+				C8B929BC2637E77000A04ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8B929C02637E77000A04ADF /* PBXTargetDependency */,
+			);
+			name = "Drag Gesture FunTests";
+			productName = "Drag Gesture FunTests";
+			productReference = C8B929BE2637E77000A04ADF /* Drag Gesture FunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8B929C82637E77000A04ADF /* Drag Gesture FunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B929D82637E77000A04ADF /* Build configuration list for PBXNativeTarget "Drag Gesture FunUITests" */;
+			buildPhases = (
+				C8B929C52637E77000A04ADF /* Sources */,
+				C8B929C62637E77000A04ADF /* Frameworks */,
+				C8B929C72637E77000A04ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8B929CB2637E77000A04ADF /* PBXTargetDependency */,
+			);
+			name = "Drag Gesture FunUITests";
+			productName = "Drag Gesture FunUITests";
+			productReference = C8B929C92637E77000A04ADF /* Drag Gesture FunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8B929A52637E76C00A04ADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C8B929AC2637E76C00A04ADF = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C8B929BD2637E77000A04ADF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C8B929AC2637E76C00A04ADF;
+					};
+					C8B929C82637E77000A04ADF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C8B929AC2637E76C00A04ADF;
+					};
+				};
+			};
+			buildConfigurationList = C8B929A82637E76C00A04ADF /* Build configuration list for PBXProject "Drag Gesture Fun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8B929A42637E76C00A04ADF;
+			productRefGroup = C8B929AE2637E76C00A04ADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8B929AC2637E76C00A04ADF /* Drag Gesture Fun */,
+				C8B929BD2637E77000A04ADF /* Drag Gesture FunTests */,
+				C8B929C82637E77000A04ADF /* Drag Gesture FunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8B929AB2637E76C00A04ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B929B82637E77000A04ADF /* Preview Assets.xcassets in Resources */,
+				C8B929B52637E77000A04ADF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B929BC2637E77000A04ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B929C72637E77000A04ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8B929A92637E76C00A04ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B929B32637E76C00A04ADF /* ContentView.swift in Sources */,
+				C8B929B12637E76C00A04ADF /* Drag_Gesture_FunApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B929BA2637E77000A04ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B929C32637E77000A04ADF /* Drag_Gesture_FunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B929C52637E77000A04ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B929CE2637E77000A04ADF /* Drag_Gesture_FunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8B929C02637E77000A04ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8B929AC2637E76C00A04ADF /* Drag Gesture Fun */;
+			targetProxy = C8B929BF2637E77000A04ADF /* PBXContainerItemProxy */;
+		};
+		C8B929CB2637E77000A04ADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8B929AC2637E76C00A04ADF /* Drag Gesture Fun */;
+			targetProxy = C8B929CA2637E77000A04ADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8B929D02637E77000A04ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8B929D12637E77000A04ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8B929D32637E77000A04ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Drag Gesture Fun/Preview Content\"";
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Drag Gesture Fun/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Drag-Gesture-Fun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8B929D42637E77000A04ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Drag Gesture Fun/Preview Content\"";
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Drag Gesture Fun/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Drag-Gesture-Fun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8B929D62637E77000A04ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				INFOPLIST_FILE = "Drag Gesture FunTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Drag-Gesture-FunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drag Gesture Fun.app/Drag Gesture Fun";
+			};
+			name = Debug;
+		};
+		C8B929D72637E77000A04ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				INFOPLIST_FILE = "Drag Gesture FunTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Drag-Gesture-FunTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drag Gesture Fun.app/Drag Gesture Fun";
+			};
+			name = Release;
+		};
+		C8B929D92637E77000A04ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				INFOPLIST_FILE = "Drag Gesture FunUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Drag-Gesture-FunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Drag Gesture Fun";
+			};
+			name = Debug;
+		};
+		C8B929DA2637E77000A04ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2R27Q8X55;
+				INFOPLIST_FILE = "Drag Gesture FunUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jesperb.Drag-Gesture-FunUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Drag Gesture Fun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8B929A82637E76C00A04ADF /* Build configuration list for PBXProject "Drag Gesture Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B929D02637E77000A04ADF /* Debug */,
+				C8B929D12637E77000A04ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B929D22637E77000A04ADF /* Build configuration list for PBXNativeTarget "Drag Gesture Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B929D32637E77000A04ADF /* Debug */,
+				C8B929D42637E77000A04ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B929D52637E77000A04ADF /* Build configuration list for PBXNativeTarget "Drag Gesture FunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B929D62637E77000A04ADF /* Debug */,
+				C8B929D72637E77000A04ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B929D82637E77000A04ADF /* Build configuration list for PBXNativeTarget "Drag Gesture FunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B929D92637E77000A04ADF /* Debug */,
+				C8B929DA2637E77000A04ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8B929A52637E76C00A04ADF /* Project object */;
+}
