@@ -17,7 +17,6 @@ struct lineGraph: Shape {
             let start = dataPoints[0]
             let a = CGPoint(x: 0, y: start) //1 - start * Double(rect.height))
             path.move(to: a)
-            print(a)
             
             
             for idx in dataPoints.indices {
