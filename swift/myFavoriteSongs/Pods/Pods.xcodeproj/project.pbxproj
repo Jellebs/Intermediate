@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1169F72437456C3BF213567896609476 /* PMAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907B6B84E054825D87C06BC4BF9E6CB7 /* PMAlertController-dummy.m */; };
+		32682F48F7932C5B50306779C3225FA5 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 309EF67440C1B1A0C94DAC3F0A083284 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4787350CE8B759990E07E5391C8DE635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		5BBCD68D379B2A5D9DD8A639DE07130A /* Pods-myFavoriteSongs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2AE4D9010CBD0EFECAF9522F96DE99 /* Pods-myFavoriteSongs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		660FE8EFE4E2CDA6C6E76D3ADCFF81BA /* PMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5021636F48B0E0D29CF45F211F3CB811 /* PMAlertAction.swift */; };
+		7358F2197F5104A870C7E2BE8C100BA8 /* PMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1449F1BFE5D9DB6276AE64E096C5E8 /* PMAlertController.swift */; };
+		7C4DEFA77748E65251B653A1EA267F8A /* Pods-myFavoriteSongs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD7816F00CD0D5A9859878F71D2AD24 /* Pods-myFavoriteSongs-dummy.m */; };
+		7CA0B17EFCFBB11E08EBFAF032B53789 /* PMAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B138A86696E1BC001F19ED0B6D8F6021 /* PMAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CAEB72587E3BC5F3A83E6B2818F2C4B /* Pods-myFavoriteSongsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A85EB6048FC7202E68E18BF6DFF57970 /* Pods-myFavoriteSongsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73F8B493B09BD2E306DDAA05CBFD78F /* PMAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8CD01E8CA077EAA13E4433E1AAC5B6FD /* PMAlertController.xib */; };
+		B2E20274D77FC745AD258EC65BF48112 /* PMAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController.bundle */; };
+		BA18C4538ECDF4714F8C798A4255A989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C0A5C28AE72150E1D3EAE8CF76C693EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C1528F534FC33C3DACEDC031E9C42266 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		D20A1C197897BCC953AC2BAAFF713C3E /* Pods-myFavoriteSongs-myFavoriteSongsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3B50019705EEDDFECA9C1E70F8D858 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-dummy.m */; };
+		D5B019DE212D6190A6D1F40072142044 /* Pods-myFavoriteSongsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA08B6EFAE96F17C598F540A628E374 /* Pods-myFavoriteSongsTests-dummy.m */; };
+		DE02B2F73BC36461007EEE927E2FF0E8 /* PMAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD01E8CA077EAA13E4433E1AAC5B6FD /* PMAlertController.xib */; };
+		FB7FBFC9CE90C745200DD1FDFB3CFA81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0102C121106769FE2A0D7AA4D942829C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB556C1B0BD8AF000E3EE7B4980343E8;
+			remoteInfo = "Pods-myFavoriteSongs";
+		};
+		3847F95A65C1F667A2165346494B94E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF447278DD2A27045784F5DA5241502E;
+			remoteInfo = PMAlertController;
+		};
+		A29A28461B1FAFEB5E631FF916352FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF447278DD2A27045784F5DA5241502E;
+			remoteInfo = PMAlertController;
+		};
+		B4381EA4A5C6C1E1AEA80DA04A6C7411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E587873091CEC554E4965B6FC547D2FD;
+			remoteInfo = "PMAlertController-PMAlertController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		095599E0814D4689E057F928BCDC59CF /* Pods-myFavoriteSongs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myFavoriteSongs-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A355EED824BE5AA2F8AC44E97A6B241 /* Pods-myFavoriteSongsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myFavoriteSongsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13DC5575D11F4E73E6D418F82093D860 /* Pods-myFavoriteSongs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFavoriteSongs.release.xcconfig"; sourceTree = "<group>"; };
+		1EFB0B6050B79D820DD18B81999F0089 /* Pods-myFavoriteSongsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-myFavoriteSongsTests.modulemap"; sourceTree = "<group>"; };
+		1F0933D6C88ED54040545B289519B68C /* Pods_myFavoriteSongsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myFavoriteSongsTests.framework; path = "Pods-myFavoriteSongsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2203D46E4985CD4564A297D9673631E5 /* PMAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PMAlertController.modulemap; sourceTree = "<group>"; };
+		309EF67440C1B1A0C94DAC3F0A083284 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myFavoriteSongs-myFavoriteSongsUITests-umbrella.h"; sourceTree = "<group>"; };
+		360815BADEE4724D1B9D87409E635077 /* Pods-myFavoriteSongsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFavoriteSongsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A3B50019705EEDDFECA9C1E70F8D858 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myFavoriteSongs-myFavoriteSongsUITests-dummy.m"; sourceTree = "<group>"; };
+		3AF993F6F939B5BE6AFB16359089D650 /* Pods-myFavoriteSongsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myFavoriteSongsTests-Info.plist"; sourceTree = "<group>"; };
+		3BA08B6EFAE96F17C598F540A628E374 /* Pods-myFavoriteSongsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myFavoriteSongsTests-dummy.m"; sourceTree = "<group>"; };
+		3C6CF3A58350604695010617E035C0EE /* Pods-myFavoriteSongs-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myFavoriteSongs-frameworks.sh"; sourceTree = "<group>"; };
+		4E9438975EB2A64E3DBEE7B6B0F797CD /* Pods-myFavoriteSongs-myFavoriteSongsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-myFavoriteSongs-myFavoriteSongsUITests.modulemap"; sourceTree = "<group>"; };
+		5021636F48B0E0D29CF45F211F3CB811 /* PMAlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertAction.swift; path = Library/PMAlertAction.swift; sourceTree = "<group>"; };
+		587ACD313092B96A91A472826E5E4B78 /* ResourceBundle-PMAlertController-PMAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PMAlertController-PMAlertController-Info.plist"; sourceTree = "<group>"; };
+		650C584465492FCEB7AE5F5C22FDEEE2 /* Pods-myFavoriteSongs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-myFavoriteSongs.modulemap"; sourceTree = "<group>"; };
+		65B746840A7DF9F489E1A2FE0AE39AC5 /* Pods-myFavoriteSongsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFavoriteSongsTests.release.xcconfig"; sourceTree = "<group>"; };
+		65EEA96E526D9661ACDD45160CBF4412 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myFavoriteSongs-myFavoriteSongsUITests-Info.plist"; sourceTree = "<group>"; };
+		680FB85060E6C17C73F058CC8A4D786D /* Pods_myFavoriteSongs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myFavoriteSongs.framework; path = "Pods-myFavoriteSongs.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FB1F4D06C7B19F693CC6D32F58D105 /* Pods-myFavoriteSongs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myFavoriteSongs-Info.plist"; sourceTree = "<group>"; };
+		710FF6DB8CB1E6521AAC3BF622D447D3 /* PMAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-prefix.pch"; sourceTree = "<group>"; };
+		7A2AE4D9010CBD0EFECAF9522F96DE99 /* Pods-myFavoriteSongs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myFavoriteSongs-umbrella.h"; sourceTree = "<group>"; };
+		7AC72A4D8A5C7F2BD8CDD1FD6D398137 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myFavoriteSongs-myFavoriteSongsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7C1449F1BFE5D9DB6276AE64E096C5E8 /* PMAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertController.swift; path = Library/PMAlertController.swift; sourceTree = "<group>"; };
+		830AB8AE8C0727B4616BACE9B4BA8A73 /* Pods-myFavoriteSongs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myFavoriteSongs-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8CD01E8CA077EAA13E4433E1AAC5B6FD /* PMAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PMAlertController.xib; path = Library/PMAlertController.xib; sourceTree = "<group>"; };
+		8ECC8624C518F5B8FC1C9595771C072D /* Pods-myFavoriteSongsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myFavoriteSongsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		907B6B84E054825D87C06BC4BF9E6CB7 /* PMAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PMAlertController-dummy.m"; sourceTree = "<group>"; };
+		952E7816145DE4BAC5824756E7F77B37 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myFavoriteSongs-myFavoriteSongsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A10D492F0333A182CD77936AC5A32B1E /* Pods-myFavoriteSongs-myFavoriteSongsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFavoriteSongs-myFavoriteSongsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A44274273875465CD0A14FEA534FF92A /* PMAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMAlertController.debug.xcconfig; sourceTree = "<group>"; };
+		A85EB6048FC7202E68E18BF6DFF57970 /* Pods-myFavoriteSongsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myFavoriteSongsTests-umbrella.h"; sourceTree = "<group>"; };
+		AA00AE0D4B3FEF97622AD74253423DC5 /* Pods-myFavoriteSongs-myFavoriteSongsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFavoriteSongs-myFavoriteSongsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ACD7816F00CD0D5A9859878F71D2AD24 /* Pods-myFavoriteSongs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myFavoriteSongs-dummy.m"; sourceTree = "<group>"; };
+		AE9CF5C4455EC772BFE1A7D36461EC89 /* PMAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PMAlertController-Info.plist"; sourceTree = "<group>"; };
+		B138A86696E1BC001F19ED0B6D8F6021 /* PMAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-umbrella.h"; sourceTree = "<group>"; };
+		B7F1BC8D67E582DA7FE228424D6088D3 /* PMAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMAlertController.release.xcconfig; sourceTree = "<group>"; };
+		C896D3D249F15B7280D3A50AA603D70F /* PMAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PMAlertController.framework; path = PMAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DE4EA816419307FD9ED3597D96F279AB /* Pods_myFavoriteSongs_myFavoriteSongsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myFavoriteSongs_myFavoriteSongsUITests.framework; path = "Pods-myFavoriteSongs-myFavoriteSongsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E913A022278B992FC138ABE1496D1F12 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myFavoriteSongs-myFavoriteSongsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E94C5543F467A120ABD853F5B6C044FD /* Pods-myFavoriteSongs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myFavoriteSongs.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PMAlertController.bundle; path = "PMAlertController-PMAlertController.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FE18D10A4BA0C6C4118EBEA91CC3549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA18C4538ECDF4714F8C798A4255A989 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5A29D54E67B8FDFCD28923D73B3C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4787350CE8B759990E07E5391C8DE635 /* Foundation.framework in Frameworks */,
+				C1528F534FC33C3DACEDC031E9C42266 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AF4076CBE879820B90C9C534EF9244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7FBFC9CE90C745200DD1FDFB3CFA81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA87649B6B6A81E092D4E8FEBE44FF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF890A19CF42CCA2623C3925EADA1688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A5C28AE72150E1D3EAE8CF76C693EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5566940FFDEAA31783E1C05EC6321A /* Pods-myFavoriteSongsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EFB0B6050B79D820DD18B81999F0089 /* Pods-myFavoriteSongsTests.modulemap */,
+				0A355EED824BE5AA2F8AC44E97A6B241 /* Pods-myFavoriteSongsTests-acknowledgements.markdown */,
+				8ECC8624C518F5B8FC1C9595771C072D /* Pods-myFavoriteSongsTests-acknowledgements.plist */,
+				3BA08B6EFAE96F17C598F540A628E374 /* Pods-myFavoriteSongsTests-dummy.m */,
+				3AF993F6F939B5BE6AFB16359089D650 /* Pods-myFavoriteSongsTests-Info.plist */,
+				A85EB6048FC7202E68E18BF6DFF57970 /* Pods-myFavoriteSongsTests-umbrella.h */,
+				360815BADEE4724D1B9D87409E635077 /* Pods-myFavoriteSongsTests.debug.xcconfig */,
+				65B746840A7DF9F489E1A2FE0AE39AC5 /* Pods-myFavoriteSongsTests.release.xcconfig */,
+			);
+			name = "Pods-myFavoriteSongsTests";
+			path = "Target Support Files/Pods-myFavoriteSongsTests";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4204955CC6247ED9C0318C171E233B60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController.bundle */,
+				C896D3D249F15B7280D3A50AA603D70F /* PMAlertController.framework */,
+				680FB85060E6C17C73F058CC8A4D786D /* Pods_myFavoriteSongs.framework */,
+				DE4EA816419307FD9ED3597D96F279AB /* Pods_myFavoriteSongs_myFavoriteSongsUITests.framework */,
+				1F0933D6C88ED54040545B289519B68C /* Pods_myFavoriteSongsTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7927FDEF1E8837DA42AD2A477E1DC951 /* Pods-myFavoriteSongs-myFavoriteSongsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E9438975EB2A64E3DBEE7B6B0F797CD /* Pods-myFavoriteSongs-myFavoriteSongsUITests.modulemap */,
+				952E7816145DE4BAC5824756E7F77B37 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-acknowledgements.markdown */,
+				E913A022278B992FC138ABE1496D1F12 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-acknowledgements.plist */,
+				3A3B50019705EEDDFECA9C1E70F8D858 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-dummy.m */,
+				7AC72A4D8A5C7F2BD8CDD1FD6D398137 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-frameworks.sh */,
+				65EEA96E526D9661ACDD45160CBF4412 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-Info.plist */,
+				309EF67440C1B1A0C94DAC3F0A083284 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-umbrella.h */,
+				A10D492F0333A182CD77936AC5A32B1E /* Pods-myFavoriteSongs-myFavoriteSongsUITests.debug.xcconfig */,
+				AA00AE0D4B3FEF97622AD74253423DC5 /* Pods-myFavoriteSongs-myFavoriteSongsUITests.release.xcconfig */,
+			);
+			name = "Pods-myFavoriteSongs-myFavoriteSongsUITests";
+			path = "Target Support Files/Pods-myFavoriteSongs-myFavoriteSongsUITests";
+			sourceTree = "<group>";
+		};
+		7F823A37B1B2B2899108C758AB850864 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8DB893A9DB970B5119423627761B4F70 /* PMAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				5021636F48B0E0D29CF45F211F3CB811 /* PMAlertAction.swift */,
+				7C1449F1BFE5D9DB6276AE64E096C5E8 /* PMAlertController.swift */,
+				8CD01E8CA077EAA13E4433E1AAC5B6FD /* PMAlertController.xib */,
+				7F823A37B1B2B2899108C758AB850864 /* Resources */,
+				B596243D1C9BA5B6EE1140806F112F50 /* Support Files */,
+			);
+			name = PMAlertController;
+			path = PMAlertController;
+			sourceTree = "<group>";
+		};
+		B596243D1C9BA5B6EE1140806F112F50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2203D46E4985CD4564A297D9673631E5 /* PMAlertController.modulemap */,
+				907B6B84E054825D87C06BC4BF9E6CB7 /* PMAlertController-dummy.m */,
+				AE9CF5C4455EC772BFE1A7D36461EC89 /* PMAlertController-Info.plist */,
+				710FF6DB8CB1E6521AAC3BF622D447D3 /* PMAlertController-prefix.pch */,
+				B138A86696E1BC001F19ED0B6D8F6021 /* PMAlertController-umbrella.h */,
+				A44274273875465CD0A14FEA534FF92A /* PMAlertController.debug.xcconfig */,
+				B7F1BC8D67E582DA7FE228424D6088D3 /* PMAlertController.release.xcconfig */,
+				587ACD313092B96A91A472826E5E4B78 /* ResourceBundle-PMAlertController-PMAlertController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PMAlertController";
+			sourceTree = "<group>";
+		};
+		C1B44A54EB133026BBD36D1B352840C1 /* Pods-myFavoriteSongs */ = {
+			isa = PBXGroup;
+			children = (
+				650C584465492FCEB7AE5F5C22FDEEE2 /* Pods-myFavoriteSongs.modulemap */,
+				830AB8AE8C0727B4616BACE9B4BA8A73 /* Pods-myFavoriteSongs-acknowledgements.markdown */,
+				095599E0814D4689E057F928BCDC59CF /* Pods-myFavoriteSongs-acknowledgements.plist */,
+				ACD7816F00CD0D5A9859878F71D2AD24 /* Pods-myFavoriteSongs-dummy.m */,
+				3C6CF3A58350604695010617E035C0EE /* Pods-myFavoriteSongs-frameworks.sh */,
+				69FB1F4D06C7B19F693CC6D32F58D105 /* Pods-myFavoriteSongs-Info.plist */,
+				7A2AE4D9010CBD0EFECAF9522F96DE99 /* Pods-myFavoriteSongs-umbrella.h */,
+				E94C5543F467A120ABD853F5B6C044FD /* Pods-myFavoriteSongs.debug.xcconfig */,
+				13DC5575D11F4E73E6D418F82093D860 /* Pods-myFavoriteSongs.release.xcconfig */,
+			);
+			name = "Pods-myFavoriteSongs";
+			path = "Target Support Files/Pods-myFavoriteSongs";
+			sourceTree = "<group>";
+		};
+		CE751579261FCAC5F96150A7BC49E1EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B44A54EB133026BBD36D1B352840C1 /* Pods-myFavoriteSongs */,
+				7927FDEF1E8837DA42AD2A477E1DC951 /* Pods-myFavoriteSongs-myFavoriteSongsUITests */,
+				0A5566940FFDEAA31783E1C05EC6321A /* Pods-myFavoriteSongsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				E5FF3FB44D99AB7C5215E68982C8A78B /* Pods */,
+				4204955CC6247ED9C0318C171E233B60 /* Products */,
+				CE751579261FCAC5F96150A7BC49E1EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E5FF3FB44D99AB7C5215E68982C8A78B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DB893A9DB970B5119423627761B4F70 /* PMAlertController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		012B4984A353DFE365526143BF4C9945 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAEB72587E3BC5F3A83E6B2818F2C4B /* Pods-myFavoriteSongsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A281196AEF55A04E1BCE6E233730C6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA0B17EFCFBB11E08EBFAF032B53789 /* PMAlertController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4026AA6D5C9622B4A7E1FC49D5B9C208 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBCD68D379B2A5D9DD8A639DE07130A /* Pods-myFavoriteSongs-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678EE084EB52DDA9E0D8FBE14AC2450 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32682F48F7932C5B50306779C3225FA5 /* Pods-myFavoriteSongs-myFavoriteSongsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0305F91BA4891BC984D8EC172E8CA822 /* Pods-myFavoriteSongsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A257EB47A7CC67E7E17241BB1A3212B9 /* Build configuration list for PBXNativeTarget "Pods-myFavoriteSongsTests" */;
+			buildPhases = (
+				012B4984A353DFE365526143BF4C9945 /* Headers */,
+				4F87A30ACD8C5174C05AB62E5CE74203 /* Sources */,
+				84AF4076CBE879820B90C9C534EF9244 /* Frameworks */,
+				B216E53BF0906A2BC5EF1004F4DCBA77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED7DE66889B07A06E7DFC9350F3421D /* PBXTargetDependency */,
+			);
+			name = "Pods-myFavoriteSongsTests";
+			productName = "Pods-myFavoriteSongsTests";
+			productReference = 1F0933D6C88ED54040545B289519B68C /* Pods_myFavoriteSongsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		270E8307BF57969AE18B42A8FF763AB6 /* Pods-myFavoriteSongs-myFavoriteSongsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4FD3BC24BA94817B2BD0174FC56887 /* Build configuration list for PBXNativeTarget "Pods-myFavoriteSongs-myFavoriteSongsUITests" */;
+			buildPhases = (
+				D678EE084EB52DDA9E0D8FBE14AC2450 /* Headers */,
+				5F60478694C674F2F1D93AF0324A871E /* Sources */,
+				CF890A19CF42CCA2623C3925EADA1688 /* Frameworks */,
+				EE1D1A813A1886E1509594229C992F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0E2E927888627CE2BEC78C390813D8B /* PBXTargetDependency */,
+			);
+			name = "Pods-myFavoriteSongs-myFavoriteSongsUITests";
+			productName = "Pods-myFavoriteSongs-myFavoriteSongsUITests";
+			productReference = DE4EA816419307FD9ED3597D96F279AB /* Pods_myFavoriteSongs_myFavoriteSongsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF447278DD2A27045784F5DA5241502E /* PMAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF466A9A4A96F85C747D6D1DECF2C5ED /* Build configuration list for PBXNativeTarget "PMAlertController" */;
+			buildPhases = (
+				1A281196AEF55A04E1BCE6E233730C6B /* Headers */,
+				729709F31E715D281DCC7E748BD10CB8 /* Sources */,
+				3A5A29D54E67B8FDFCD28923D73B3C2B /* Frameworks */,
+				169EB1577F674EE2BCD047AFAEDFC122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE844DF109BEC95E85405C5D5278787C /* PBXTargetDependency */,
+			);
+			name = PMAlertController;
+			productName = PMAlertController;
+			productReference = C896D3D249F15B7280D3A50AA603D70F /* PMAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB556C1B0BD8AF000E3EE7B4980343E8 /* Pods-myFavoriteSongs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65730252F5EBCB0C2331A9D760189D6B /* Build configuration list for PBXNativeTarget "Pods-myFavoriteSongs" */;
+			buildPhases = (
+				4026AA6D5C9622B4A7E1FC49D5B9C208 /* Headers */,
+				A715A31D3F6568209EB5CE3A53133FE6 /* Sources */,
+				1FE18D10A4BA0C6C4118EBEA91CC3549 /* Frameworks */,
+				08F212D0C995E5F52C4D9744CEBFD83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DC96B27D1D97A24F26C0B083E479FC /* PBXTargetDependency */,
+			);
+			name = "Pods-myFavoriteSongs";
+			productName = "Pods-myFavoriteSongs";
+			productReference = 680FB85060E6C17C73F058CC8A4D786D /* Pods_myFavoriteSongs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30137A3C157BA4D9304AE74090B1B0D /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */;
+			buildPhases = (
+				031BE042D36E55109B45764C4D9D4B66 /* Sources */,
+				CA87649B6B6A81E092D4E8FEBE44FF8E /* Frameworks */,
+				091BDBA637C527076C194CB230035101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PMAlertController-PMAlertController";
+			productName = "PMAlertController-PMAlertController";
+			productReference = ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4204955CC6247ED9C0318C171E233B60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF447278DD2A27045784F5DA5241502E /* PMAlertController */,
+				E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */,
+				DB556C1B0BD8AF000E3EE7B4980343E8 /* Pods-myFavoriteSongs */,
+				270E8307BF57969AE18B42A8FF763AB6 /* Pods-myFavoriteSongs-myFavoriteSongsUITests */,
+				0305F91BA4891BC984D8EC172E8CA822 /* Pods-myFavoriteSongsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F212D0C995E5F52C4D9744CEBFD83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091BDBA637C527076C194CB230035101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE02B2F73BC36461007EEE927E2FF0E8 /* PMAlertController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169EB1577F674EE2BCD047AFAEDFC122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E20274D77FC745AD258EC65BF48112 /* PMAlertController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B216E53BF0906A2BC5EF1004F4DCBA77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1D1A813A1886E1509594229C992F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031BE042D36E55109B45764C4D9D4B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F87A30ACD8C5174C05AB62E5CE74203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B019DE212D6190A6D1F40072142044 /* Pods-myFavoriteSongsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F60478694C674F2F1D93AF0324A871E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20A1C197897BCC953AC2BAAFF713C3E /* Pods-myFavoriteSongs-myFavoriteSongsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729709F31E715D281DCC7E748BD10CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660FE8EFE4E2CDA6C6E76D3ADCFF81BA /* PMAlertAction.swift in Sources */,
+				1169F72437456C3BF213567896609476 /* PMAlertController-dummy.m in Sources */,
+				7358F2197F5104A870C7E2BE8C100BA8 /* PMAlertController.swift in Sources */,
+				A73F8B493B09BD2E306DDAA05CBFD78F /* PMAlertController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A715A31D3F6568209EB5CE3A53133FE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4DEFA77748E65251B653A1EA267F8A /* Pods-myFavoriteSongs-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09DC96B27D1D97A24F26C0B083E479FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PMAlertController;
+			target = AF447278DD2A27045784F5DA5241502E /* PMAlertController */;
+			targetProxy = A29A28461B1FAFEB5E631FF916352FBB /* PBXContainerItemProxy */;
+		};
+		5ED7DE66889B07A06E7DFC9350F3421D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-myFavoriteSongs";
+			target = DB556C1B0BD8AF000E3EE7B4980343E8 /* Pods-myFavoriteSongs */;
+			targetProxy = 0102C121106769FE2A0D7AA4D942829C /* PBXContainerItemProxy */;
+		};
+		C0E2E927888627CE2BEC78C390813D8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PMAlertController;
+			target = AF447278DD2A27045784F5DA5241502E /* PMAlertController */;
+			targetProxy = 3847F95A65C1F667A2165346494B94E8 /* PBXContainerItemProxy */;
+		};
+		CE844DF109BEC95E85405C5D5278787C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PMAlertController-PMAlertController";
+			target = E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */;
+			targetProxy = B4381EA4A5C6C1E1AEA80DA04A6C7411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15BA0345C495DE18FAD6697F21466CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94C5543F467A120ABD853F5B6C044FD /* Pods-myFavoriteSongs.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-myFavoriteSongs/Pods-myFavoriteSongs-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFavoriteSongs/Pods-myFavoriteSongs.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2B8F9D499A8FF2B4E3AE2423D56BA778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DC5575D11F4E73E6D418F82093D860 /* Pods-myFavoriteSongs.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-myFavoriteSongs/Pods-myFavoriteSongs-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFavoriteSongs/Pods-myFavoriteSongs.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D0FBEC5CC744C2F07D993064B33D571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44274273875465CD0A14FEA534FF92A /* PMAlertController.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
+				IBSC_MODULE = PMAlertController;
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-PMAlertController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6C1FE7FE63DA93E2777DAB871D8BCCAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10D492F0333A182CD77936AC5A32B1E /* Pods-myFavoriteSongs-myFavoriteSongsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-myFavoriteSongs-myFavoriteSongsUITests/Pods-myFavoriteSongs-myFavoriteSongsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFavoriteSongs-myFavoriteSongsUITests/Pods-myFavoriteSongs-myFavoriteSongsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F9C7255465269022B5BDB4BE03D592A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B746840A7DF9F489E1A2FE0AE39AC5 /* Pods-myFavoriteSongsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-myFavoriteSongsTests/Pods-myFavoriteSongsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFavoriteSongsTests/Pods-myFavoriteSongsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A57C9486C099FCEE872FDB324484547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44274273875465CD0A14FEA534FF92A /* PMAlertController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/PMAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
+				PRODUCT_MODULE_NAME = PMAlertController;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A503E72C237BB011F6B212BDCBE6E35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F1BC8D67E582DA7FE228424D6088D3 /* PMAlertController.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
+				IBSC_MODULE = PMAlertController;
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-PMAlertController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AA2468593AF4387B76F76823D8FCD62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F1BC8D67E582DA7FE228424D6088D3 /* PMAlertController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PMAlertController/PMAlertController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
+				PRODUCT_MODULE_NAME = PMAlertController;
+				PRODUCT_NAME = PMAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D655FA2B143EA3F9D0714DDF74ACA995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360815BADEE4724D1B9D87409E635077 /* Pods-myFavoriteSongsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-myFavoriteSongsTests/Pods-myFavoriteSongsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFavoriteSongsTests/Pods-myFavoriteSongsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F824F586C48035EA3B04AE65BF70196E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA00AE0D4B3FEF97622AD74253423DC5 /* Pods-myFavoriteSongs-myFavoriteSongsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-myFavoriteSongs-myFavoriteSongsUITests/Pods-myFavoriteSongs-myFavoriteSongsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myFavoriteSongs-myFavoriteSongsUITests/Pods-myFavoriteSongs-myFavoriteSongsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65730252F5EBCB0C2331A9D760189D6B /* Build configuration list for PBXNativeTarget "Pods-myFavoriteSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BA0345C495DE18FAD6697F21466CAA /* Debug */,
+				2B8F9D499A8FF2B4E3AE2423D56BA778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A257EB47A7CC67E7E17241BB1A3212B9 /* Build configuration list for PBXNativeTarget "Pods-myFavoriteSongsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D655FA2B143EA3F9D0714DDF74ACA995 /* Debug */,
+				8F9C7255465269022B5BDB4BE03D592A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30137A3C157BA4D9304AE74090B1B0D /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0FBEC5CC744C2F07D993064B33D571 /* Debug */,
+				A503E72C237BB011F6B212BDCBE6E35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4FD3BC24BA94817B2BD0174FC56887 /* Build configuration list for PBXNativeTarget "Pods-myFavoriteSongs-myFavoriteSongsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C1FE7FE63DA93E2777DAB871D8BCCAB /* Debug */,
+				F824F586C48035EA3B04AE65BF70196E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF466A9A4A96F85C747D6D1DECF2C5ED /* Build configuration list for PBXNativeTarget "PMAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A57C9486C099FCEE872FDB324484547 /* Debug */,
+				AA2468593AF4387B76F76823D8FCD62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

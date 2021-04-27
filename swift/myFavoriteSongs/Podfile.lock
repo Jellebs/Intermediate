@@ -1,0 +1,16 @@
+PODS:
+  - PMAlertController (4.0.1)
+
+DEPENDENCIES:
+  - PMAlertController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PMAlertController
+
+SPEC CHECKSUMS:
+  PMAlertController: ab5fcf4d085b7878c9451466d701449c4bf6efb8
+
+PODFILE CHECKSUM: 98548b1a2d10f8a1033b77762472e866ca66ad33
+
+COCOAPODS: 1.10.1
